@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		547FCCF9180646AB007C1911 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 547FCCF8180646AB007C1911 /* UIKit.framework */; };
+		547FCCFB180646AB007C1911 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 547FCCFA180646AB007C1911 /* Foundation.framework */; };
+		547FCCFD180646AB007C1911 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 547FCCFC180646AB007C1911 /* CoreGraphics.framework */; };
+		547FCD03180646AB007C1911 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 547FCD01180646AB007C1911 /* InfoPlist.strings */; };
+		547FCD05180646AB007C1911 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 547FCD04180646AB007C1911 /* main.m */; };
+		547FCD09180646AB007C1911 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 547FCD08180646AB007C1911 /* AppDelegate.m */; };
+		547FCD0B180646AB007C1911 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 547FCD0A180646AB007C1911 /* Default.png */; };
+		547FCD0D180646AB007C1911 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 547FCD0C180646AB007C1911 /* Default@2x.png */; };
+		547FCD0F180646AB007C1911 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 547FCD0E180646AB007C1911 /* Default-568h@2x.png */; };
+		547FCD12180646AB007C1911 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 547FCD10180646AB007C1911 /* MainStoryboard.storyboard */; };
+		547FCD15180646AB007C1911 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 547FCD14180646AB007C1911 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		547FCCF5180646AB007C1911 /* TrackCha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackCha.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		547FCCF8180646AB007C1911 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		547FCCFA180646AB007C1911 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		547FCCFC180646AB007C1911 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		547FCD00180646AB007C1911 /* TrackCha-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TrackCha-Info.plist"; sourceTree = "<group>"; };
+		547FCD02180646AB007C1911 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		547FCD04180646AB007C1911 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		547FCD06180646AB007C1911 /* TrackCha-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TrackCha-Prefix.pch"; sourceTree = "<group>"; };
+		547FCD07180646AB007C1911 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		547FCD08180646AB007C1911 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		547FCD0A180646AB007C1911 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		547FCD0C180646AB007C1911 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		547FCD0E180646AB007C1911 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		547FCD11180646AB007C1911 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		547FCD13180646AB007C1911 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		547FCD14180646AB007C1911 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		547FCCF2180646AB007C1911 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				547FCCF9180646AB007C1911 /* UIKit.framework in Frameworks */,
+				547FCCFB180646AB007C1911 /* Foundation.framework in Frameworks */,
+				547FCCFD180646AB007C1911 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		547FCCEC180646AB007C1911 = {
+			isa = PBXGroup;
+			children = (
+				547FCCFE180646AB007C1911 /* TrackCha */,
+				547FCCF7180646AB007C1911 /* Frameworks */,
+				547FCCF6180646AB007C1911 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		547FCCF6180646AB007C1911 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				547FCCF5180646AB007C1911 /* TrackCha.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		547FCCF7180646AB007C1911 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				547FCCF8180646AB007C1911 /* UIKit.framework */,
+				547FCCFA180646AB007C1911 /* Foundation.framework */,
+				547FCCFC180646AB007C1911 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		547FCCFE180646AB007C1911 /* TrackCha */ = {
+			isa = PBXGroup;
+			children = (
+				547FCD07180646AB007C1911 /* AppDelegate.h */,
+				547FCD08180646AB007C1911 /* AppDelegate.m */,
+				547FCD10180646AB007C1911 /* MainStoryboard.storyboard */,
+				547FCD13180646AB007C1911 /* ViewController.h */,
+				547FCD14180646AB007C1911 /* ViewController.m */,
+				547FCCFF180646AB007C1911 /* Supporting Files */,
+			);
+			path = TrackCha;
+			sourceTree = "<group>";
+		};
+		547FCCFF180646AB007C1911 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				547FCD00180646AB007C1911 /* TrackCha-Info.plist */,
+				547FCD01180646AB007C1911 /* InfoPlist.strings */,
+				547FCD04180646AB007C1911 /* main.m */,
+				547FCD06180646AB007C1911 /* TrackCha-Prefix.pch */,
+				547FCD0A180646AB007C1911 /* Default.png */,
+				547FCD0C180646AB007C1911 /* Default@2x.png */,
+				547FCD0E180646AB007C1911 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		547FCCF4180646AB007C1911 /* TrackCha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 547FCD18180646AB007C1911 /* Build configuration list for PBXNativeTarget "TrackCha" */;
+			buildPhases = (
+				547FCCF1180646AB007C1911 /* Sources */,
+				547FCCF2180646AB007C1911 /* Frameworks */,
+				547FCCF3180646AB007C1911 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrackCha;
+			productName = TrackCha;
+			productReference = 547FCCF5180646AB007C1911 /* TrackCha.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		547FCCED180646AB007C1911 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = LITS;
+			};
+			buildConfigurationList = 547FCCF0180646AB007C1911 /* Build configuration list for PBXProject "TrackCha" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 547FCCEC180646AB007C1911;
+			productRefGroup = 547FCCF6180646AB007C1911 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				547FCCF4180646AB007C1911 /* TrackCha */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		547FCCF3180646AB007C1911 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				547FCD03180646AB007C1911 /* InfoPlist.strings in Resources */,
+				547FCD0B180646AB007C1911 /* Default.png in Resources */,
+				547FCD0D180646AB007C1911 /* Default@2x.png in Resources */,
+				547FCD0F180646AB007C1911 /* Default-568h@2x.png in Resources */,
+				547FCD12180646AB007C1911 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		547FCCF1180646AB007C1911 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				547FCD05180646AB007C1911 /* main.m in Sources */,
+				547FCD09180646AB007C1911 /* AppDelegate.m in Sources */,
+				547FCD15180646AB007C1911 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		547FCD01180646AB007C1911 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				547FCD02180646AB007C1911 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		547FCD10180646AB007C1911 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				547FCD11180646AB007C1911 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		547FCD16180646AB007C1911 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		547FCD17180646AB007C1911 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		547FCD19180646AB007C1911 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrackCha/TrackCha-Prefix.pch";
+				INFOPLIST_FILE = "TrackCha/TrackCha-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		547FCD1A180646AB007C1911 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrackCha/TrackCha-Prefix.pch";
+				INFOPLIST_FILE = "TrackCha/TrackCha-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		547FCCF0180646AB007C1911 /* Build configuration list for PBXProject "TrackCha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				547FCD16180646AB007C1911 /* Debug */,
+				547FCD17180646AB007C1911 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		547FCD18180646AB007C1911 /* Build configuration list for PBXNativeTarget "TrackCha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				547FCD19180646AB007C1911 /* Debug */,
+				547FCD1A180646AB007C1911 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 547FCCED180646AB007C1911 /* Project object */;
+}
